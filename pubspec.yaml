@@ -1,0 +1,23 @@
+name: bee_hive
+description: "BeeHive helps manage Boxes and register adapters easily for Hive 4.x.x. It simplifies Box management and adapter registration, making Hive usage more efficient."
+repository: https://github.com/mrasityilmaz/bee_hive
+version: 0.0.1-dev.1
+homepage: https://github.com/mrasityilmaz/bee_hive
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^4.0.0-dev.2
+  isar_flutter_libs: ^4.0.0-dev.13
+  logger: ^2.4.0
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^6.0.0
